@@ -1,0 +1,134 @@
+body {
+    background: rgb(245,245,245);
+    color: #575F7D;
+    font-size: 17px;
+    font-weight: light;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+h1,h2,h3 {
+    font-family: 'Montserrat', serif;
+}
+h1 {
+    color: #575F7D;
+    font-size: 32px;
+    font-weight: 900;
+}
+h2 { 
+    color: #0056B2;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+h3 { 
+    color: #575F7D;
+    font-size: 20px;
+    font-weight: lighter;
+    font-weight: 500;
+}
+a {
+    color: #6B71E1;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    font-weight: 600;
+    font-size: 16px;
+}
+a:hover {
+    color: brown;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+    
+li {
+    display: inline-block;
+    padding: 10px;
+}
+
+i {
+    font-size: 50px;
+    color: rgb(210, 210, 210);
+}
+
+i:hover {
+    color: black;
+}
+
+/* Division design */
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    padding: 35px;
+    margin: 35px auto;
+    text-align: center;
+    transition: squale(1,1)
+}
+
+.btn-blue {
+    background-color: #6B72E1;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.btn-blue:hover {
+    background-color: rgb(100, 100, 100);
+    color: white;
+}
+
+#intro p {
+    margin-bottom: 40px;
+}
+
+.card-white:hover {
+  transform: scale(1.1);
+ }
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: block;
+  margin: 0 auto;
+}
+
+.card-white:hover {
+  /* transform: scale(1.1); */
+ }
